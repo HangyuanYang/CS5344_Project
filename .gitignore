@@ -3,3 +3,8 @@
 
 # Ada Library Information
 *.ali
+
+# runtime files
+.git
+.ipynb_checkpoints
+src/__pycache__/*
