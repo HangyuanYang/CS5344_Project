@@ -3,8 +3,12 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 import re
+import numpy as np
+import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+import seaborn as sns
+from sklearn.metrics import confusion_matrix, classification_report
 
 text_clean_re = "^#\S+|\s#\S+|^@\S+|\s@\S+|www\.\S+|https?:\S+|http?:\S+"
 stop_words = stopwords.words('english')
