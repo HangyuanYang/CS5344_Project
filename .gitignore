@@ -10,3 +10,4 @@
 src/__pycache__/*
 data/training.1600000.processed.noemoticon.csv
 models/best_RandomForestClassifier.pkl
+tmp
