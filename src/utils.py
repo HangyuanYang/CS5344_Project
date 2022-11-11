@@ -46,7 +46,7 @@ def preprocess(df):
 
     return df
 
-
+#reference:https://www.kaggle.com/code/zayedhaque/twitter-sentiment-analysis#Preprocessing-the-Data
 def model_evaluation(model, X_test, y_test):
     y_pred = model.predict(X_test)
     print(classification_report(y_test, y_pred))
